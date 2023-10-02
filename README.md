@@ -35,8 +35,8 @@ For those who prefer a streamlined, GUI-free experience, a shorter, more concise
 
 ## 🌟 Features
 
-- Customizable User Interface
-- Supports Multiple Languages (English and French)
+- User Interface
+- Supports Multiple Languages
 - Efficient File Sorting Algorithm
 - User-friendly Error Handling
 - Localizable through JSON files 
@@ -69,10 +69,11 @@ Looking for more? Explore the following user-friendly, efficient repositories:
 
 - [LNK reader](https://github.com/SECRET-GUEST/windows_link_reader): Allows dual boot Linux users to work with Windows shortcuts.
 - [Unreal installer](https://github.com/SECRET-GUEST/Unrealinux) : An installer in C++ for Unreal Engine on Linux without Epic Games launcher.
-- [Tiny Scripts](https://github.com/SECRET-GUEST/tiny-scripts) : Discover user-friendly, GUI-free scripts.
+
+Looking for more? Discover user-friendly, GUI-free script here: 
+- [Tiny Scripts](https://github.com/SECRET-GUEST/tiny-scripts)
 
 
-Absolutely, I understand. When building for different platforms, especially MacOS and Windows, it's essential to address the specific requirements and steps involved in the process. Below is the augmented README with sections on building the program on both MacOS and Windows.
 
 ## 📥 Installation 
 
