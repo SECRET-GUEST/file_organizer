@@ -13,11 +13,11 @@
 
 # Files Organizer 🗃️
 
-Files Organizer is a versatile, efficient, and user-friendly program designed to facilitate file sorting tasks, making it an essential tool especially when complementing data recovery processes on hard drives, using a customizable Graphical User Interface (GUI). Written in C, it supports various platforms including Debian Linux and MacOS, and is currently in its alpha stage of development.
+Files Organizer is a versatile and efficient software solution, designed to seamlessly sort files within a folder and its subdirectories by moving them into folders named after their respective extensions. Developed in C, this user-friendly program, complete with a customizable Graphical User Interface (GUI), supports various platforms including Linux and MacOS, and is currently in its alpha stage of development.
 
-This software stands out by providing a structured way to organize recovered files, ensuring that users can easily locate their valuable data after a recovery process. It is ideal for anyone looking to add an extra layer of order to their file recovery endeavors, avoiding the chaos that often comes with unsorted recovered files.
+This software is particularly invaluable when used in conjunction with data recovery processes on hard drives, enabling users to effortlessly locate and organize their recovered data. It brings structure and order to the often chaotic landscape of unsorted recovered files, providing a streamlined post-recovery experience.
 
-For those who prefer a streamlined, GUI-free experience, a shorter, more concise script is also available at [Tiny Scripts](https://github.com/SECRET-GUEST/tiny-scripts), allowing users to discover user-friendly, straightforward solutions for their file organizing needs.
+I primarily utilize it as a supplementary tool for disk recovery, with plans for a more comprehensive software solution on this subject in the future. For users who prefer a simpler, GUI-free experience, a concise script is also available at [Tiny Scripts](https://github.com/SECRET-GUEST/tiny-scripts).
 
 ---
 ---
@@ -89,7 +89,7 @@ Looking for more? Discover user-friendly, GUI-free script here:
    cd file_organizer
    ```
 
-### ![LINUX](https://img.shields.io/badge/Debian-LINUX-orange)
+### ![LINUX](https://img.shields.io/badge/LINUX-orange)
 
 3. **Install the required dependencies:**
    ```sh
