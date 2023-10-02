@@ -9,14 +9,15 @@
 ```
 ![C](https://img.shields.io/badge/C-GCC-purple)
 ![ALPHA](https://img.shields.io/badge/ALPHA-red) 
-![LINUX](https://img.shields.io/badge/Debian-LINUX-orange)
-![MACOS](https://img.shields.io/badge/MacOS-white) 
-![WINDOWS](https://img.shields.io/badge/windows-blue)
 
 
-# Files organizer 
+# Files Organizer 🗃️
 
-Files organizer is a versatile, efficient, and user-friendly program designed to facilitate file sorting tasks using a customizable Graphical User Interface (GUI). Written in C, it supports various platforms including Debian Linux and MacOS, and is currently in its alpha stage of development.
+Files Organizer is a versatile, efficient, and user-friendly program designed to facilitate file sorting tasks, making it an essential tool especially when complementing data recovery processes on hard drives, using a customizable Graphical User Interface (GUI). Written in C, it supports various platforms including Debian Linux and MacOS, and is currently in its alpha stage of development.
+
+This software stands out by providing a structured way to organize recovered files, ensuring that users can easily locate their valuable data after a recovery process. It is ideal for anyone looking to add an extra layer of order to their file recovery endeavors, avoiding the chaos that often comes with unsorted recovered files.
+
+For those who prefer a streamlined, GUI-free experience, a shorter, more concise script is also available at [Tiny Scripts](https://github.com/SECRET-GUEST/tiny-scripts), allowing users to discover user-friendly, straightforward solutions for their file organizing needs.
 
 ---
 ---
@@ -73,45 +74,25 @@ Looking for more? Explore the following user-friendly, efficient repositories:
 
 Absolutely, I understand. When building for different platforms, especially MacOS and Windows, it's essential to address the specific requirements and steps involved in the process. Below is the augmented README with sections on building the program on both MacOS and Windows.
 
-## 📥 Installation & Building the Program
+## 📥 Installation 
 
-### For Debian Linux:
+### General Steps:
 
 1. **Clone the Repository**
    ```sh
-   git clone [URL_of_this_repository]
+   git clone https://github.com/SECRET-GUEST/file_organizer
    ```
 
 2. **Navigate to the Directory**
    ```sh
-   cd [directory_of_cloned_repository]
+   cd file_organizer
    ```
 
-3. **Compile the Program using Makefile**
-   ```sh
-   make
-   ```
+### ![LINUX](https://img.shields.io/badge/Debian-LINUX-orange)
 
-4. **Run the Program**
+3. **Install the required dependencies:**
    ```sh
-   ./Files_organizer
-   ```
-
-### For MacOS:
-
-1. **Clone the Repository**
-   ```sh
-   git clone [URL_of_this_repository]
-   ```
-
-2. **Navigate to the Directory**
-   ```sh
-   cd [directory_of_cloned_repository]
-   ```
-
-3. **Install the necessary build tools and libraries if not already present**
-   ```sh
-   brew install gcc make
+   sudo apt-get install gcc make libgtk-3-dev libjson-c-dev
    ```
 
 4. **Compile the Program using Makefile**
@@ -119,28 +100,18 @@ Absolutely, I understand. When building for different platforms, especially MacO
    make
    ```
 
-5. **Run the Program**
+5. **Run the Program (as super user if necessary, but be careful !)**
    ```sh
-   ./Files_organizer
+   sudo ./File_organizer
    ```
 
-### For Windows:
 
-This project is currently in the alpha stage, and Windows support is a part of the to-do list. However, if you want to try building it on Windows, you might want to use a C compiler like MinGW and a build system like GNU Make. Installing and using Cygwin can also provide a Unix-like environment to build and run the project.
 
-1. **Clone the Repository**
+### ![MACOS](https://img.shields.io/badge/MacOS-white) 
+
+3. **Install the necessary build tools and libraries if not already present using Homebrew**
    ```sh
-   git clone [URL_of_this_repository]
-   ```
-
-2. **Navigate to the Directory**
-   ```sh
-   cd [directory_of_cloned_repository]
-   ```
-
-3. **Install necessary tools like MinGW and Make (if not already present)**
-   ```sh
-   # Follow installation instructions for your specific environment.
+   brew install gcc make gtk+3 json-c
    ```
 
 4. **Compile the Program using Makefile**
@@ -148,9 +119,14 @@ This project is currently in the alpha stage, and Windows support is a part of t
    make
    ```
 
-5. **Run the Program**
+5. **Run the Program (as super user if necessary)**
    ```sh
-   ./Files_organizer.exe
+   sudo ./File_organizer
    ```
+
+### ![WINDOWS](https://img.shields.io/badge/windows-blue)
+
+Building for Windows using GTK is a more involved process. You'd likely need an environment like MSYS2 or Cygwin. It's recommended for now to focus on the Linux and MacOS builds unless you're willing to spend some time setting up a build system for Windows.
+
 
 
