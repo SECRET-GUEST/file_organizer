@@ -17,7 +17,7 @@ Files Organizer is a versatile and efficient software solution, designed to seam
 
 This software is particularly invaluable when used in conjunction with data recovery processes on hard drives, enabling users to effortlessly locate and organize their recovered data. It brings structure and order to the often chaotic landscape of unsorted recovered files, providing a streamlined post-recovery experience.
 
-I primarily utilize it as a supplementary tool for disk recovery, with plans for a more comprehensive software solution on this subject in the future. For users who prefer a simpler, GUI-free experience, a concise script is also available at [Tiny Scripts](https://github.com/SECRET-GUEST/tiny-scripts).
+I primarily utilize it as a supplementary tool for disk recovery, with plans for a more comprehensive software solution on this subject in the future. For users who prefer a simpler, GUI-free experience, a concise script is also available at [tiny file organizer script](https://github.com/SECRET-GUEST/tiny-scripts/tree/ALL/C/Files%20handlers/File%20organizer).
 
 ---
 ---
