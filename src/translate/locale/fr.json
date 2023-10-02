@@ -1,0 +1,26 @@
+{
+  "sorter_gui": {
+      "txt1": "Tri de Fichiers",
+      "txt2": "Sélectionner le Répertoire d'Entrée",
+      "txt3": "Exécuter le Trieur",
+      "txt4": "Veuillez choisir un répertoire de sortie correct",
+      "txt5": "Une erreur est survenue pendant le tri des fichiers.",
+      "txt17": "Ce programme tri les fichiers basés sur leur extensions.",
+      "txt18": "Les répertoires d'entrée et de sortie sont identiques.",
+      "txt19": "Erreur d'Allocation de Mémoire.",
+      "txt20": "Le répertoire de sortie est un sous-répertoire du répertoire d'entrée."
+  },
+  "sorter": {
+      "txt6": "Impossible de créer le répertoire de sortie",
+      "txt7": "Erreur lors de la création du répertoire",
+      "txt8": "Impossible d'ouvrir le répertoire",
+      "txt9": "Erreur à l'ouverture du fichier source",
+      "txt10": "Erreur à l'ouverture du fichier destination",
+      "txt11": "Erreur lors de l'écriture du fichier",
+      "txt12": "Impossible d'ouvrir le répertoire",
+      "txt13": "Erreur lors de la récupération des informations du fichier",
+      "txt14": "Impossible de supprimer le répertoire non vide",
+      "txt15": "Erreur lors de la copie du fichier",
+      "txt16": "Erreur lors du déplacement du fichier"
+  }
+}

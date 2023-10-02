@@ -1,0 +1,26 @@
+{
+  "sorter_gui": {
+      "txt1": "File Sorter",
+      "txt2": "Select Input Directory",
+      "txt3": "Run Sorter",
+      "txt4": "Please choose a correct output directory",
+      "txt5": "An error occurred during file sorting.",
+      "txt17": "This program sorts your files based on their extensions.",
+      "txt18": "Input and Output directories are identical.",
+      "txt19": "Memory Allocation Error.",
+      "txt20": "The output directory is a subdirectory of the input directory."
+  },
+  "sorter": {
+      "txt6": "Unable to create output directory",
+      "txt7": "Error creating directory",
+      "txt8": "Unable to open directory",
+      "txt9": "Error opening source file",
+      "txt10": "Error opening destination file",
+      "txt11": "Error writing to file",
+      "txt12": "Impossible to open the directory",
+      "txt13": "Error retrieving file information",
+      "txt14": "Unable to delete non-empty directory",
+      "txt15": "Error copying the file",
+      "txt16": "Error moving the file"
+  }
+}
