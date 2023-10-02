@@ -35,11 +35,9 @@ I primarily utilize it as a supplementary tool for disk recovery, with plans for
 
 ## 🌟 Features
 
-- User Interface
 - Supports Multiple Languages
 - Efficient File Sorting Algorithm
 - User-friendly Error Handling
-- Localizable through JSON files 
 
 ## 🔍 Prerequisites
 
