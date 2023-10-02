@@ -19,6 +19,9 @@ This software is particularly invaluable when used in conjunction with data reco
 
 I primarily utilize it as a supplementary tool for disk recovery, with plans for a more comprehensive software solution on this subject in the future. For users who prefer a simpler, GUI-free experience, a concise script is also available at [tiny file organizer script](https://github.com/SECRET-GUEST/tiny-scripts/tree/ALL/C/Files%20handlers/File%20organizer).
 
+![image](https://github.com/SECRET-GUEST/file_organizer/assets/92639080/2c9358f4-fc2c-4f70-b32c-0ed01ee53ee1)
+
+
 ---
 ---
 ---
