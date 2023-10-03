@@ -7,13 +7,12 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <errno.h>
-#include "program/sorter.h"
+#include "sorter.h"
 #include "handlers/error_handler.h"
-#include "../translate/translator.h"
+#include "translate/translator.h"
 
 
-
-// Function prototypes
+// Protoypes
 int collectExtensions(const char *path, char ***extensions, int *count);
 int createExtensionDirectories(const char *path, char **extensions, int count);
 int organizeFiles(const char *inputPath, const char *outputPath);
@@ -21,14 +20,8 @@ int removeEmptyDirectories(const char *path);
 int copyFile(const char *srcPath, const char *destPath);
 
 
-
 // Main function to initialize and run the file sorter
 int initialize_sorter(const char *inputDirectory, const char *outputDirectory) {
-    // Try creating the output directory; return error if unsuccessful (except if directory already exists)
-    if (mkdir(outputDirectory, 0777) == -1 && errno != EEXIST) {
-        display_error_message(translate("sorter.txt6")); // Unable to create output directory
-        return -1;
-    }
 
     char **extensions = NULL;
     int count = 0;

@@ -3,10 +3,9 @@
 #include <stdlib.h>
 #include <libgen.h> 
 #include <string.h> 
-
-#include "gui/sorter_gui.h"
+#include "sorter_gui.h"
 #include "program/sorter.h"
-#include "../translate/translator.h"
+#include "translate/translator.h"
 #include "handlers/error_handler.h"
 
 
