@@ -69,7 +69,6 @@ If you have any questions or need support, please feel free to open an issue, a 
 Looking for more? Explore the following user-friendly, efficient repositories:
 
 - [LNK reader](https://github.com/SECRET-GUEST/windows_link_reader): Allows dual boot Linux users to work with Windows shortcuts.
-- [Unreal installer](https://github.com/SECRET-GUEST/Unrealinux) : An installer in C++ for Unreal Engine on Linux without Epic Games launcher.
 
 Looking for more? Discover user-friendly, GUI-free script here: 
 - [Tiny Scripts](https://github.com/SECRET-GUEST/tiny-scripts)
